@@ -36,7 +36,7 @@
                   <input type="checkbox"> Join email list
                 </label>
               </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+
           </form>
         </div>
         <div class="col-md-2">
@@ -44,27 +44,44 @@
       </div>
     </div>
 
-      <!--design element-->
+        <!--design element-->
 
     <hr>
     <img src="http://placehold.it/800x150" alt="Beautiful Beach" title="San Diego" id="beachPic">
     <hr>
 
       <!--select boxes-->
-    <h3>What type of climate do you prefer?</h3>
-    <div class=selectors>
-      <select class="form-control" id="preferredTemp">
-        <option value="1">Cold</option>
-        <option value="2">Mild</option>
-        <option value="3">Warm</option>
-        <option value="4">Hot</option>
-      </select>
-    <h3>Would like to travel internationally?</h3>
-      <select class="form-control" id="location">
-        <option value="1">Internationally</option>
-        <option value="2">Nationally</option>
-      </select>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>What type of climate do you prefer?</h3>
+        <div class=selectors>
+          <select class="form-control" id="preferredTemp">
+            <option value="1">Cold</option>
+            <option value="2">Mild</option>
+            <option value="3">Warm</option>
+            <option value="4">Hot</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Would like to travel internationally?</h3>
+          <select class="form-control" id="location">
+            <option value="1">Internationally</option>
+            <option value="2">Nationally</option>
+          </select>
+        </div>
+      </div>
     </div>
+        <!--checkboxes-->
+
+
+
+    <form id="checkboxes">
+      <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+      <input type="checkbox" name="vehicle" value="Car" checked> I have a car<br>
+      <input type="submit" value="Submit">
+    </form>
+
 
         <!--end of container-->
   </body>

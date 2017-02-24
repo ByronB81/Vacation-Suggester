@@ -8,58 +8,120 @@
     <title>Vacation Suggester</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container textWindow">
+      <h1 class="center">Vacation Suggester!</h1>
+      <h2 class="center">Are you ready to find the perfect vacation?</h2>
 
-      <!--Jumbotron-->
+        <div class="row">
+        <form id="vacationTest">
+          <div class="col-md-6">
+            Name:
+          <input type="text" id="userName" name="getName" value="">
 
-      <div class=jumbotron>
-        <h1>Vacation Suggester</h1>
-        <p>Your dream get away is just around the corner. Take our brief survey to find the perfect vacation spot for you!</p>
-        <p>Please enter values on a scale of 0-5 for best results</p>
-      </div>
+            <div class="question1">
+              <h4>Which of these locations interest you the most?</h4>
+              <input type="radio" class="q1" name="q1" value="option1"> Beach <br>
+              <input type="radio" class="q1" name="q1" value="option2"> Mountain<br>
+              <input type="radio" class="q1" name="q1" value="option3"> City<br><br>
+            </div>
 
-      <!--Form-->
-      <div id="blanks">
-        <form>
-          <div class="form-group">
-            <label for="name">Full name</label>
-            <input id="name" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="email">Email address</label>
-            <input id="email" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="children">Number of children</label>
-            <input id="children" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="climate">Preferred climate (0 cold - 5 hot)</label>
-            <input id="climate" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="activity">Activity level (0 relaxing - 5 exciting)</label>
-            <input id="activity" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="pricing">Pricing level (0$ - 5$$$)</label>
-            <input id="pricing" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="exotic">Exotic level (0 off the beaten path - 5 traditional)</label>
-            <input id="pricing" class="form-control" type="text">
+            <div class="question2">
+              <h4>Do you like spicy food?</h4>
+              <input type="radio" class="q2" name="q2" value="option1"> YES - love it<br>
+              <input type="radio" class="q2" name="q2" value="option2"> Yeah<br>
+              <input type="radio" class="q2" name="q2" value="option3"> No<br><br>
+            </div>
+
+            <div class="question3">
+              <h4>What kind of activities would you prefer?</h4>
+              <input type="radio" class="q3" name="q3" value="option1"> Sports<br>
+              <input type="radio" class="q3" name="q3" value="option2"> Sightseeing<br>
+              <input type="radio" class="q3" name="q3" value="option3"> Shopping<br>
+            </div><br>
+
+            <input id="submit "type="submit" value="Submit">
+
           </div>
 
-          <button type="submit" class="btn">Show me my vacation!</button>
+          <div class="col-md-6">
+            <div class="question4">
+              <h4>Would you rather Ski(Snowboard), Wakeboard, or Bike?</h4>
+              <input type="radio" class="q4" name="q4" value="option1"> Ski(Snowboard) <br>
+              <input type="radio" class="q4" name="q4" value="option2"> Wakeboard<br>
+              <input type="radio" class="q4" name="q4" value="option3"> Bike<br><br>
+            </div>
+
+            <div class="question5">
+              <h4>Who are you going with?</h4>
+              <input type="radio" class="q5" name="q5" value="option1"> Family<br>
+              <input type="radio" class="q5" name="q5" value="option2"> Friends<br>
+              <input type="radio" class="q5" name="q5" value="option3"> Significant Other<br>
+            </div>
+
+            <div class="question6">
+              <h4>Perfect temperature?</h4>
+              <input type="radio" class="q6" name="q6" value="option1"> > 80F<br>
+              <input type="radio" class="q6" name="q6" value="option2"> 70F-80F<br>
+              <input type="radio" class="q6" name="q6" value="option3"> < 70F<br><br>
+            </div>
+
+            <!-- <div class="question7">
+              <h4></h4>
+              <input type="radio" class="q7" name="q7" value="lightsaber"> Lightsaber <br>
+              <input type="radio" class="q7" name="q7" value="blaster"> Blaster<br>
+              <input type="radio" class="q7" name="q7" value="wit"> Wit<br><br>
+            </div>
+            <div class="question8">
+              <h4>Do you want to visit a beach?</h4>
+              <input type="radio" class="q8" name="q8" value="lightsaber"> Lightsaber <br>
+              <input type="radio" class="q8" name="q8" value="blaster"> Blaster<br>
+              <input type="radio" class="q8" name="q8" value="wit"> Wit<br><br>
+            </div>
+            <div class="question9">
+              <h4>Do you want to visit a beach?</h4>
+              <input type="radio" class="q9" name="q9" value="lightsaber"> Lightsaber <br>
+              <input type="radio" class="q9" name="q9" value="blaster"> Blaster<br>
+              <input type="radio" class="q9" name="q9" value="wit"> Wit<br><br>
+            </div>
+            <div class="question10">
+              <h4>Do you want to visit a beach?</h4>
+              <input type="radio" class="q10" name="q10" value="lightsaber"> Lightsaber <br>
+              <input type="radio" class="q10" name="q10" value="blaster"> Blaster<br>
+              <input type="radio" class="q10" name="q10" value="wit"> Wit<br><br>
+            </div> -->
+
+          </div>
+          <div class="col-md-12">
+
+
+            <div id="hawaii">
+              <h2>Hawaii! Beautiful beaches, family fun, and great water sports!</h2>
+              <img src="img/hawaii.png"/>
+            </div>
+
+            <div id="thailand">
+              <h2>Thailand! Relaxing, exciting, and has delicious food!</h2>
+              <img src="img/thailand.png"/>
+            </div>
+
+            <div id="australia">
+              <h2>Australia! Exilerating summer sports, great weather, fun with friends!</h2>
+              <img src="img/australia.png"/>
+            </div>
+
+            <div id="alaska">
+              <h2>Alaska! Breathtaking scenery, amazing during spring!</h2>
+              <img src="img/alaska.png"/>
+            </div>
+
+            <div id="europe">
+              <h2>Europe! A great all-around vacation with so many different things to do!</h2>
+              <img src="img/europe.png"/>
+            </div>
+
+          </div>
         </form>
-      </div>
-
-      <div id="story">
-        <h1>A fantastical adventure</h1>
-        <p>One day, <span class="name"></span> <span class="email"></span><span class="children"></span> kids <span class="climate"></span>climate <span class="activity"></span> activity <span class="pricing"></span>pricing <span class="exotic"></span>exotic</p>
-
-        <!--end of container-->
-
+      </row>
     </div>
   </body>
 </html>

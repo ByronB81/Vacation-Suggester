@@ -34,3 +34,16 @@ img {
 img {
 	width:100%;
 }
+
+.jumbotron {
+  text-align: center;
+  background-color: DarkOrange;
+  color: Azure;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.jumbotron h2 {
+  color: Gold;
+  font-style: italic;
+}

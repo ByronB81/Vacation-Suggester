@@ -1,9 +1,35 @@
-#beachPic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+body {
+  background: url('../img/beach.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-#checkboxes {
-  margin-top: 2em;
+#hawaii, #thailand, #australia, #alaska, #europe {
+  display: none;
+}
+
+.container.textWindow{
+  border: ridge rgba(30,30,30,.5) 4px;
+  border-radius: 17px;
+  margin-top: 6%;
+  margin-bottom: 10px;
+  background-color: rgba(255, 223, 128, .95);
+  background-clip: content-box, padding-box;
+}
+
+img {
+  width: 50%;
+}
+
+.center {
+	text-align: center;
+}
+.row {
+	padding: 30px;
+}
+
+img {
+	width:100%;
 }

@@ -1,5 +1,4 @@
 body {
-  /*background: url('../img/beach.jpeg') no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,8 +11,6 @@ body {
 }
 
 .container.textWindow{
-  /*border: ridge rgba(30,30,30,.5) 4px;
-  border-radius: 17px;*/
   margin-top: 3em;
   margin-bottom: 3em;
   background-color: Gold;

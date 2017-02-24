@@ -1,9 +1,10 @@
 body {
-  background: url('../img/beach.png') no-repeat center center fixed;
+  /*background: url('../img/beach.jpeg') no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: DarkGreen;
 }
 
 #hawaii, #thailand, #australia, #alaska, #europe {
@@ -11,11 +12,11 @@ body {
 }
 
 .container.textWindow{
-  border: ridge rgba(30,30,30,.5) 4px;
-  border-radius: 17px;
-  margin-top: 6%;
-  margin-bottom: 10px;
-  background-color: rgba(255, 223, 128, .95);
+  /*border: ridge rgba(30,30,30,.5) 4px;
+  border-radius: 17px;*/
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background-color: Gold;
   background-clip: content-box, padding-box;
 }
 
@@ -27,7 +28,7 @@ img {
 	text-align: center;
 }
 .row {
-	padding: 30px;
+	padding: 3em;
 }
 
 img {

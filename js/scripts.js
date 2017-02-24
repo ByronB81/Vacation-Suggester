@@ -101,6 +101,6 @@ $(document).ready(function() {
       $('.col-md-6').slideUp();
       $('#europe').fadeIn();
     }
-
+    
   });
 });

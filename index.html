@@ -16,7 +16,9 @@
         <h1>Vacation Suggester</h1>
         <p>Your dream get away is just around the corner. Take our brief survey to find the perfect vacation spot for you!</p>
       </div>
+
       <!--Form-->
+
       <div class="row">
         <div class="col-md-2">
         </div>
@@ -31,18 +33,19 @@
                 <label for="inputEmail">Email</label>
                 <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
               </div>
+
               <div class="checkbox">
                 <label>
                   <input type="checkbox"> Join email list
                 </label>
               </div>
-
+            </div>
           </form>
         </div>
         <div class="col-md-2">
         </div>
       </div>
-    </div>
+
 
         <!--design element-->
 
@@ -50,64 +53,73 @@
     <img src="http://placehold.it/800x150" alt="Beautiful Beach" title="San Diego" id="beachPic">
     <hr>
 
-      <!--select boxes-->
-    <div class="row">
-      <div class="col-md-6">
-        <h3>What type of climate do you prefer?</h3>
-        <div class=selectors>
-          <select class="form-control" id="preferredTemp">
-            <option value="1">Cold</option>
-            <option value="2">Mild</option>
-            <option value="3">Warm</option>
-            <option value="4">Hot</option>
-          </select>
+      <!--Select boxes-->
+
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Preferred climate?</h3>
+          <div class=selectors>
+            <select class="form-control" id="preferredTemp">
+              <option value="1">Cold</option>
+              <option value="2">Mild</option>
+              <option value="3">Warm</option>
+              <option value="4">Hot</option>
+            </select>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <h3>Would like to travel internationally?</h3>
-          <select class="form-control" id="location">
-            <option value="1">Internationally</option>
-            <option value="2">Nationally</option>
-          </select>
+        <div class="col-md-6">
+          <h3>Preferred location?</h3>
+            <select class="form-control" id="location">
+              <option value="1">Internationally</option>
+              <option value="2">Nationally</option>
+            </select>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Favorite cuisine?</h3>
-        <div class=selectors>
-          <select class="form-control" id="cuisine">
-            <option value="1">Sweets</option>
-            <option value="2">Standard</option>
-            <option value="3">Exotic</option>
-            <option value="4">Spicy</option>
+      <!-- </div> -->
+
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Preferred attire?</h3>
+          <div class=selectors>
+            <select class="form-control" id="attire">
+              <option value="1">Swimsuit</option>
+              <option value="2">Shorts</option>
+              <option value="3">Jackets</option>
+              <option value="4">Formal</option>
+            </select>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <h3>Recreational Activities?</h3>
-        <div class=selectors>
-          <select class="form-control" id="fun">
-            <option value="1">Sightseeing</option>
-            <option value="2">Bicycling</option>
-            <option value="3">Water Sports</option>
+        <div class="col-md-6">
+          <h3>Preferred cuisine?</h3>
+            <select class="form-control" id="cuisine">
+              <option value="1">Spicy</option>
+              <option value="2">Exotic</option>
+            </select>
+          </div>
         </div>
-      </div>
-    </div>
+
+
+
+
+
         <!--checkboxes-->
 
 
-    <div class="row">
-        <form>
-          <div class="col-md-6">
-          <input type="checkbox" name="attire" value="Bike"> I have a bike<br>
-      </div>
-    </div class="col-md-6">
-          <input type="checkbox" name="attire" value="Car" checked> I have a car<br>
-          <input type="submit" value="Submit">
-        </form>
+        <div class="row">
+          <form>
+            <div class="col-md-6">
+              <input type="checkbox" name="attire" value="Bike"> I have a bike<br>
+            </div>
+            <div class="col-md-6">
+            <input type="checkbox" name="attire" value="Car" checked> I have a car<br>
+            <input type="submit" value="Submit">
+
+          </form>
       </div>
     </div>
 
         <!--end of container-->
+
+    </div>
   </body>
 </html>

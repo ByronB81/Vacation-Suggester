@@ -19,151 +19,44 @@
       </div>
 
       <!--Form-->
-      <div class="row" id="blanks">
-        <div class="col-md-6">
-          <!-- <div id="blanks"> -->
-            <form>
-              <div class="form-group">
-                <label for="climate">Preferred Climate 0-5 (0 = cold 5 = hot)</label>
-                <input id="climate" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="activity">Preferred activity level (0 = relaxing 5 = exciting)</label>
-                <input id="activity" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="pricing">Preferred pricing (0 = inexpensive 5 = deluxe)</label>
-                <input id="pricing" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="variety">Preferred vacation (0 = off the beaten path 5 =traditional)</label>
-                <input id="variety" class="form-control" type="text">
-              </div>
-        </div>
-        <div class="col-md-6">
-              <div class="form-group">
-                <label for="name">First and last name</label>
-                <input id="name" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="address">Full home address</label>
-                <input id="address" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="email">Email address</label>
-                <input id="email" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="children">Number of children</label>
-                <input id="children" class="form-control" type="text">
-              </div>
-
-              <button type="submit" class="btn">Show me the story!</button>
-            </form>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="name">Full name</label>
+            <input id="name" class="form-control" type="text">
           </div>
-        </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input id="email" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="children">Number of children</label>
+            <input id="children" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="climate">Preferred climate (0 cold - 5 hot)</label>
+            <input id="climate" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="activity">Activity level (0 relaxing - 5 exciting)</label>
+            <input id="activity" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="pricing">Pricing level (0$ - 5$$$)</label>
+            <input id="pricing" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="exotic">Exotic level (0 off the beaten path - 5 traditional)</label>
+            <input id="pricing" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me my vacation!</button>
+        </form>
       </div>
 
-      <h2><span class="name"></span>Still not working</h2>
-
-      <!-- <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-8">
-          <form id="basicForm">
-            <div class="form-inline">
-              <div class="form-group">
-                <label for="inputName">Name</label>
-                <input type="name" class="form-control" id="inputName" placeholder="Full Name">
-              </div>
-              <div class="form-group">
-                <label for="inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
-              </div>
-
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Join email list
-                </label>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-2">
-        </div>
-      </div>
-
-
-        <!--design element-->
-
-    <!-- <hr>
-    <img src="http://placehold.it/800x150" alt="Beautiful Beach" title="San Diego" id="beachPic">
-    <hr> -->
-
-      <!--Select boxes-->
-
-      <!-- <div class="row">
-        <div class="col-md-6">
-          <h3>Preferred climate?</h3>
-          <div class=selectors>
-            <select class="form-control" id="preferredTemp">
-              <option value="1">Cold</option>
-              <option value="2">Mild</option>
-              <option value="3">Warm</option>
-              <option value="4">Hot</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h3>Preferred location?</h3>
-            <select class="form-control" id="location">
-              <option value="1">Internationally</option>
-              <option value="2">Nationally</option>
-            </select>
-          </div>
-        </div> -->
-      <!-- </div> -->
-
-      <!-- <div class="row">
-        <div class="col-md-6">
-          <h3>Preferred attire?</h3>
-          <div class=selectors>
-            <select class="form-control" id="attire">
-              <option value="1">Swimsuit</option>
-              <option value="2">Shorts</option>
-              <option value="3">Jackets</option>
-              <option value="4">Formal</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h3>Preferred cuisine?</h3>
-            <select class="form-control" id="cuisine">
-              <option value="1">Spicy</option>
-              <option value="2">Exotic</option>
-            </select>
-          </div>
-        </div> -->
-
-
-
-
-
-        <!--checkboxes-->
-
-
-        <!-- <div class="row" id="blanks">
-          <form>
-            <div class="col-md-6">
-              <input type="checkbox" name="attire" value="Bike"> I have a bike<br>
-            </div>
-            <div class="col-md-6">
-            <input type="checkbox" name="attire" value="Car" checked> I have a car<br>
-            <input type="submit" value="Submit">
-
-          </form>
-      </div>
-    </div> -->
+      <div id="story">
+        <h1>A fantastical adventure</h1>
+        <p>One day, <span class="name"></span> <span class="email"></span><span class="children"></span> kids <span class="climate"></span>climate <span class="activity"></span> activity <span class="pricing"></span>pricing <span class="exotic"></span>exotic</p>
 
         <!--end of container-->
 

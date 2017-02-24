@@ -15,11 +15,57 @@
       <div class=jumbotron>
         <h1>Vacation Suggester</h1>
         <p>Your dream get away is just around the corner. Take our brief survey to find the perfect vacation spot for you!</p>
+        <p>Please enter values on a scale of 0-5 for best results</p>
       </div>
 
       <!--Form-->
-
       <div class="row">
+        <div class="col-md-6">
+          <!-- <div id="blanks"> -->
+            <form>
+              <div class="form-group">
+                <label for="climate">Preferred Climate 0-5 (0 = cold 5 = hot)</label>
+                <input id="climate" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="activity">Preferred activity level (0 = relaxing 5 = exciting)</label>
+                <input id="activity" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="pricing">Preferred pricing (0 = inexpensive 5 = deluxe)</label>
+                <input id="pricing" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="variety">Preferred vacation (0 = off the beaten path 5 = traditional)</label>
+                <input id="variety" class="form-control" type="text">
+              </div>
+        </div>
+        <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">First and last name</label>
+                <input id="name" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="address">Full home address</label>
+                <input id="address" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input id="email" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="children">Number of children</label>
+                <input id="children" class="form-control" type="text">
+              </div>
+
+              <button type="submit" class="btn">Show me the story!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <div class="row">
         <div class="col-md-2">
         </div>
         <div class="col-md-8">
@@ -105,7 +151,7 @@
         <!--checkboxes-->
 
 
-        <div class="row">
+        <div class="row" id="blanks">
           <form>
             <div class="col-md-6">
               <input type="checkbox" name="attire" value="Bike"> I have a bike<br>
@@ -116,7 +162,7 @@
 
           </form>
       </div>
-    </div>
+    </div> -->
 
         <!--end of container-->
 
